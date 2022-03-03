@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: light grey;
+  border-radius: 14px 14px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+  border-radius: 20px 20px;
+}
+
+h1 {
+  font-family: Georgia;
+  color: white;
+  font-size: 60%;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: Courier New;
+  font-size: 150%;
+  color: white;
+  opacity: 0.7;
+}
+h5 {
+  font-family: Courier New;
+  text-align: center;
+  color: white;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://bit.ly/3AdjozK");
+  /* Set a specific height */
+  min-height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-family: Arial, Verdana, sans-serif;
+  border-radius: 25px 30px solid black;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.3em;
+  color: white;
+}
+
+button {
+  border-radius: 18px 18px;
+  width: 120px;
+  height: 40px;
+  border: black;
+  color: black;
+  background-color: white;
+  display: inline;
+}
+button:hover {
+  background-color: grey;
+}
+body {
+  background-color: black;
+}
+a.addr {
+  text-decoration: none;
+  border: solid;
+  border-color: grey;
+  color: white;
+  border-radius: 14px 14px;
+  padding: 3px;
+  margin-left: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: Black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: DodgerBlue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
